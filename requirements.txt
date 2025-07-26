@@ -1,0 +1,10 @@
+whisper
+torch
+torchaudio
+ffmpeg-python
+pydub
+fastapi
+uvicorn
+pyannote.audio
+scipy
+numpy
