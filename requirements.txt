@@ -1,4 +1,5 @@
-whisper
+openai-whisper
+
 torch
 torchaudio
 ffmpeg-python
