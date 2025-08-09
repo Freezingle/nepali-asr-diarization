@@ -1,34 +1,36 @@
-# Byte-compiled / optimized / DLL files
-__pycache__/
-*.py[cod]
-*$py.class
-
-# Virtual environment folder
+# Python venv folders
 venv/
+.env/
+.venv/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
 
 # Environment variables
-.env
+*.env
 
-# Audio input/output folders (usually large files)
-backend/input_audio/
-backend/outputs/
+# macOS
+.DS_Store
 
-# Local model files
-backend/models/
+# Windows
+Thumbs.db
 
-# Distribution / packaging
-build/
+# Node.js (if running React/Node backend)
+node_modules/
+
+# Build outputs
 dist/
-*.egg-info/
+build/
 
 # Logs
 *.log
 
-# OS files
-.DS_Store
-Thumbs.db
+# Ignore uploads
+uploads/
 
-# IDEs and editors
-.vscode/
-.idea/
-*.swp
+# Ignore any audio test files
+*.mp3
+*.wav
